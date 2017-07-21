@@ -14,8 +14,8 @@ namespace TourOfHeroes
             var cors = new EnableCorsAttribute("http://localhost:3000", "*", "*");
             config.EnableCors(cors);
 
-            cors = new EnableCorsAttribute("http://localhost:3002", "*", "*");
-            config.EnableCors(cors);
+            //cors = new EnableCorsAttribute("http://localhost:3002", "*", "*");
+            //config.EnableCors(cors);
 
             // Web API routes
             config.MapHttpAttributeRoutes();

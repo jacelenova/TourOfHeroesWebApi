@@ -21,5 +21,6 @@ namespace TourOfHeroes.Models
 
         public System.Data.Entity.DbSet<TourOfHeroes.Models.Hero> Heroes { get; set; }
         public DbSet<TourOfHeroes.Models.TestModel> TestModels { get; set; }
+        public DbSet<TourOfHeroes.Models.User> Users { get; set; }
     }
 }
